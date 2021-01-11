@@ -16,6 +16,7 @@ $('header ul li').on('click', function () {
     
   });
 
+  
   let header = document.querySelector("header");
  let ham = document.querySelector(".ham");
  let menu = document.querySelector(".menu");
@@ -33,6 +34,8 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+
 
 
 $(document).ready(function() {
