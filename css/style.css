@@ -842,6 +842,7 @@ footer {
 
 .life-inner .involve-a, .involved .involve-a {
   display: none;
+  text-decoration: underline;
 }
 
 .life-inner .involve-a1, .involved .involve-a1 {
@@ -849,6 +850,7 @@ footer {
   display: none;
   margin: 1rem 0;
   font: normal normal 600 20px/38px "Panton semibold";
+  text-decoration: underline;
 }
 
 .life-inner .involve-b, .involved .involve-b {
@@ -856,6 +858,7 @@ footer {
   display: block;
   margin: 1rem 0;
   font: normal normal 600 18px/38px "Panton semibold";
+  text-decoration: underline;
 }
 
 .life-inner .involved-bottom, .involved .involved-bottom {
@@ -3616,7 +3619,7 @@ body > div.faith.giving > div > div.col-lg-7.order-2 > p.link {
     position: relative;
     top: 100px;
   }
-  .faith {
+  body > div.faith.offer {
     padding: 5% 9%;
     text-align: left;
   }
@@ -3928,7 +3931,7 @@ body > div.faith.giving > div > div.col-lg-7.order-2 > p.link {
     font-size: 2.8rem;
   }
   .banner-offer, .banner-life, .banner-involved {
-    padding: 12% 0 10%;
+    padding: 15% 0 10%;
   }
   .banner-offer .banner-inner .banner-item, .banner-life .banner-inner .banner-item, .banner-involved .banner-inner .banner-item {
     margin: 5rem 0;
@@ -3938,14 +3941,18 @@ body > div.faith.giving > div > div.col-lg-7.order-2 > p.link {
     font-size: 5.5rem;
   }
   .banner-offer .top-one, .banner-life .top-one, .banner-involved .top-one {
-    right: 20%;
-    height: 37rem;
-    top: -4rem;
+    right: 18%;
+    height: 43rem;
+    top: -8rem;
+    z-index: 3;
   }
   .banner-offer .top-two, .banner-life .top-two, .banner-involved .top-two {
     right: 7%;
     height: 37rem;
     top: 17rem;
+    display: block;
+    position: absolute;
+    z-index: 1;
   }
   .ministry, .messy, .advent {
     margin: 5% 0;
@@ -4038,13 +4045,15 @@ body > div.faith.giving > div > div.col-lg-7.order-2 > p.link {
     margin-bottom: 2rem;
   }
   .involved .involve-b, .involved .involve-a {
-    font-size: 2rem;
+    font-size: 25px;
   }
   .involved .involve-a1 {
     display: block;
     position: absolute;
     right: 0;
-    bottom: -16%;
+    bottom: -25%;
+    text-decoration: underline;
+    font-size: 25px;
   }
   .involved .involved-bottom .bottom-involved {
     width: 75%;
@@ -4062,6 +4071,7 @@ body > div.faith.giving > div > div.col-lg-7.order-2 > p.link {
     position: absolute;
     right: 0;
     bottom: 0;
+    font-size: 25px;
   }
   .involved .general .bottom-involved1 {
     bottom: -20%;

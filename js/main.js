@@ -113,6 +113,12 @@ $(document).ready(function() {
   slidesToScroll: 1,
   nextArrow:'#next',
     prevArrow:'#prev',
+    responsive: [
+      {
+          breakpoint: 769,
+          settings: 'unslick'
+      }
+  ]
    
 });
  
