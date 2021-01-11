@@ -1069,7 +1069,10 @@ body > div.faith.giving > div > div.col-lg-7.order-2 > p.link{font-size: 25px; m
             p{text-align: left;font: normal normal 600 24px/38px $semibold;}
             a{text-align: left;text-decoration: underline;font: normal normal 600 24px/38px $semibold; justify-content: flex-end;}
         }
-        .quote{text-align: center; font: italic normal 600 25px/23px $semibolditalic; margin-top: 50px;
+        .quote{text-align: center; font: italic normal 600 25px/23px $semibolditalic; margin-top: 50px; position: absolute;
+            bottom: 0;
+            width: 36%;
+            text-align: left;
             span{display: block; font: italic normal 300 28px/81px $thinitalic;}
         }
     }
@@ -1332,8 +1335,8 @@ body > div.faith.giving > div > div.col-lg-7.order-2 > p.link{font-size: 25px; m
                 p{text-align: left;font: normal normal 600 20px/38px $semibold;}
                 a{text-align: left;text-decoration: underline;font: normal normal 600 24px/38px $semibold; justify-content: flex-end;}
             }
-            .quote{text-align: center; font: italic normal 600 25px/23px $semibolditalic; margin-top: 50px;
-                span{display: block; font: italic normal 300 28px/81px $thinitalic;}
+            .quote{text-align: left; font: italic normal 600 30px/23px $semibolditalic; margin-top: 50px; position: relative; width: 100%; padding-left: 15%;
+                span{display: block; font: italic normal 300 35px/60px $thinitalic;}
             }
         }
 
