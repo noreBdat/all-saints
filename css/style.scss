@@ -1419,7 +1419,7 @@ body > div.faith.giving > div > div.col-lg-5.order-1{text-align: center;
 .faith p{font-size: 25px;}
 
 .verse{ overflow: hidden; height: 100vh; display: flex; justify-content: center; align-items: center;
-    img{position: absolute; min-width: 120%; top: 0; z-index: 1;}
+    img{position: absolute; min-width: 100%; top: 0; z-index: 1;}
     p{z-index: 2;text-align: center;font: normal normal 600 33px/50px $semibold;color: #FFFFFF; white-space: initial; padding-top: 50px; width: 70%;
         span{margin: 10px 0; display: block;}
     }

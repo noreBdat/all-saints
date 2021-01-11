@@ -4579,7 +4579,7 @@ body > div.faith.giving > div > div.col-lg-7.order-2 > p.link {
   }
   .verse img {
     position: absolute;
-    min-width: 120%;
+    min-width: 100%;
     top: 0;
     z-index: 1;
   }
