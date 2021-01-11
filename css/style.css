@@ -3616,7 +3616,7 @@ body > div.faith.giving > div > div.col-lg-7.order-2 > p.link {
     position: relative;
     top: 100px;
   }
-  body > div.faith.giving > div > div.col-lg-5.order-1 .faith {
+  .faith {
     padding: 5% 9%;
     text-align: left;
   }
