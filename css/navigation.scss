@@ -108,9 +108,11 @@ header{position:fixed;z-index:99;width:100%;background:linear-gradient(to right,
     }
 }
 @media(min-width:1200px){
-    header{left: 50%; transform: translate(-50%, 0);
+    header{left: 50%; transform: translate(-50%, 0) !important;
         .menu{
             li{padding:14px 20px;}
         }
     }
 }
+
+

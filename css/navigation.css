@@ -317,6 +317,11 @@ header .change {
 }
 
 @media (min-width: 1200px) {
+  header {
+    left: 50%;
+    -webkit-transform: translate(-50%, 0) !important;
+            transform: translate(-50%, 0) !important;
+  }
   header .menu li {
     padding: 14px 20px;
   }
